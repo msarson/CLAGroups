@@ -4,6 +4,12 @@
 
 Nuget package can be found [here](http://https://www.nuget.org/packages/ClaGroups "here") 
 
+The packages is a .Net Standard 2.0 project and supports the following versions of .Net
+
+.Net Core 2.0 and above
+.Net Framework 4.6.2 and above
+See notes [here](https://docs.microsoft.com/en-us/dotnet/standard/net-standard "here")
+
 To use the package in visual studio (I have only tested in 2019) Search for the package CLAGroups
 
 More documentation is coming to show how to use the package.
