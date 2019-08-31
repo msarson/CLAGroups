@@ -24,6 +24,8 @@ Message                         STRING(10)
 //This code will automatically handle the IntPtr passed as ADDRESS(Group)
 //From clarion to the c# structure and class shown below
 //ptrToPerson is defined as and will usually be part of an exported method
+
+[DllExport("PassGroup", CallingConvention = CallingConvention.StdCall)]
 public static void PassGroup(IntPtr ptrToPerson)
 {
   PersonDetails person = new PersonDetails(ptrToPerson);
