@@ -11,7 +11,14 @@ More documentation is coming to show how to use the package.
 I am also working on a clarion class that will create the needed structure and class for using your group with .net.
 
 Simple usage
-
+```clarion
+!Clarion group that transposes to the C# code below
+Person                      GROUP
+Name                            CSTRING(100)
+Age                             LONG
+Message                         STRING(10)
+                            END
+```                            
 ```csharp
 //Code to start working with a group
 //This code will automatically handle the IntPtr passed as ADDRESS(Group)
