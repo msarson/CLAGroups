@@ -41,10 +41,10 @@ public static void PassGroup(IntPtr ptrToPerson)
 public struct Person
 {
     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 100)]
-    public string Name; //Clarion CSTRING definition
-    public int Age; //Clarion LONG definition
+    public string Name;             //Clarion CSTRING definition
+    public int Age;                 //Clarion LONG definition
     [MarshalAs(UnmanagedType.ByValArray, SizeConst = 10)]
-    public byte[] Message; //Clarion STRING definition
+    public byte[] Message;          //Clarion STRING definition
 }
 
 //Class definition that will manage the group
