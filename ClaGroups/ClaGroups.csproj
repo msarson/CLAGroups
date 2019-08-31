@@ -8,6 +8,10 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Authors>Mark Sarson</Authors>
     <NeutralLanguage>en</NeutralLanguage>
+    <RepositoryUrl>https://github.com/msarson/CLAGroups/tree/master/ClaGroups</RepositoryUrl>
+    <PackageTags>Clarion Unmanaged Exports Helper</PackageTags>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/msarson/CLAGroups/wiki</PackageProjectUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
