@@ -72,9 +72,7 @@ public class PersonDetails : GroupBaseClass<Person>
     {
         get
         {
-            int byteCount;
-            byteCount = System.Runtime.InteropServices.Marshal.SizeOf(group.Message);
-            return Encoding.UTF8.GetString((byte[])group.Message, 0, byteCount);
+            return Encoding.UTF8.GetString((byte[])group.Message, 0, group.Message.Length);
         }
         set
         {
