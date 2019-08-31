@@ -34,7 +34,10 @@ Message                         STRING(10)
 [DllExport("PassGroup", CallingConvention = CallingConvention.StdCall)]
 public static void PassGroup(IntPtr ptrToPerson)
 {
+  //Constructor will automagically do the magic pointer stuff
   PersonDetails person = new PersonDetails(ptrToPerson);
+  //Do your magic then save back to memory
+  person.UpdateGroupMemory();
 }
 
 //The following will be the code needed to do the rest
